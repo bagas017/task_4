@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/5624543.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-field{
+    width: 100%;
+}
+
+input, textarea, button {
+    /* width: 100%; */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0; 
+}
+
+
+button {
+    width: 50%;
+    background-color: #00b800;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button {
+    width: 20%;
+    background-color: #ff2323;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+}
+fieldset legend {
+    font-weight: bold;
+}
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 10px;
+}
+table {
+    width: 1vw;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+}
